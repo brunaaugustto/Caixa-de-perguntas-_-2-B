@@ -1,0 +1,17 @@
+body {
+    background-color: rgba(203, 167, 236, 0.795);
+    font-family: "Epunda Slab", serif;
+}
+footer {
+    background-color: rgb(65, 3, 124);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+footer p {
+    text-align: center;
+    font: 0.6rem;
+    margin-top: 0.5rem;
+}
