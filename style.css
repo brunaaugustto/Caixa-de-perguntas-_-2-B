@@ -18,9 +18,13 @@ footer p {
     margin-top: 0.5rem;
 }
 
+#container {
+    display: flex;
+}
+
 .cartao {
     margin: 1rem 1rem;
-    background-color: rgb(65, 23, 124);
+    background-color: rgb(65, 3, 124);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
@@ -28,15 +32,16 @@ footer p {
 
 .cartao_conteudo {
     text-align: center;
-    background-color: rgb(206, 204, 240);
+    background-color: rgba(203, 168, 236, 0.795);
     height: 100%;
 }
+
 .cartao_conteudo h3 {
-    background-color: rgb(65, 23, 124);
-    color: white;
+    background-color: rgb(128, 58, 240);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
-    margin: 0.6rem;border-radius: 0.6rem;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
     font-size: 1vw;
 }
