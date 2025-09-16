@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(203, 167, 236, 0.795);
+    background-color: url('img/bg-desktop.webp');
     font-family: "Epunda Slab", serif;
 }
 
@@ -44,4 +44,10 @@ footer p {
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
+}
+
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
 }
