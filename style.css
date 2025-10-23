@@ -1,10 +1,10 @@
 body {
-    background-color: #f4cefc;
+    background-color: #eb78f5cb;
     font-family: "Epunda Slab", serif;
 }
 
 footer {
-    background-color: rgb(65, 3, 124);
+    background-color: rgba(204, 58, 240, 0.87);
     color: rgb(250, 246, 246);
     position: fixed;
     bottom: 0;
@@ -28,7 +28,7 @@ footer p {
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: rgb(224, 203, 238);
+    background-color: rgb(230, 142, 233);
     height: 20rem;
     flex-grow: 1 0 calc(100% - 1rem);
     flex-basis: calc(33% - 6rem);
@@ -36,14 +36,14 @@ footer p {
 
 .cartao_conteudo {
     text-align: center;
-    background-color:rgb(86, 5, 124);
+    background-color: rgba(204, 58, 240, 0.87);
     height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
 }
 
 .cartao_conteudo h3 {
-    color:rgb(175, 141, 206);
+    color:rgb(239, 223, 245);
     border: 1px solid var(--text-color);
     text-align: left;
     padding: 0.5rem;
